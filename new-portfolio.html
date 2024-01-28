@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Name - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/progressbar.js@1.1.0/dist/progressbar.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Your Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#works">My Works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">My Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://source.unsplash.com/1200x400/?technology" class="d-block w-100" alt="Demo Image 1"/>
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1200x400/?programming" class="d-block w-100" alt="Demo Image 2"/>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container">
+
+        <section id="about" class="mt-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>About Me</h2>
+                    <p>
+                        I am Saheel Khan, a seasoned full-stack developer with 3 years of hands-on experience.
+                        Proficient in HTML5, CSS3, JavaScript, jQuery, Bootstrap, React.js, and Node.js, I specialize
+                        in crafting dynamic and responsive web applications. My journey in web development has equipped
+                        me with a diverse skill set, allowing me to seamlessly bridge the gap between front-end and back-end
+                        technologies. I am passionate about creating intuitive and efficient user experiences, and my commitment
+                        to staying abreast of the latest industry trends ensures that I deliver cutting-edge solutions. In every
+                        project, I bring dedication, creativity, and a solution-oriented mindset.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://source.unsplash.com/300x300/?portrait" class="img-fluid" alt="Demo Image"/>
+                </div>
+            </div>
+        </section>
+
+        <hr/>
+
+        <section id="works" class="mt-5">
+            <h2>My Works</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <img src="https://source.unsplash.com/300x300/?portfolio" alt="Portfolio Website"/>
+                        <p>Portfolio Website</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <img src="https://source.unsplash.com/300x300/?ecommerce" alt="E Commerce Website"/>
+                        <p>E Commerce Website</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <img src="https://source.unsplash.com/300x300/?wordpress" alt="WordPress Website"/>
+                        <p>WordPress Website</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <img src="https://source.unsplash.com/300x300/?react" alt="React JS Website"/>
+                        <p>React JS Website</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <img src="https://source.unsplash.com/300x300/?laravel" alt="Laravel Website"/>
+                        <p>Laravel Website</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <img src="https://source.unsplash.com/300x300/?nodejs" alt="Node JS Website"/>
+                        <p>Node JS Website</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr/>
+
+        <section id="skills" class="mt-5">
+            <h2>My Skills</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>HTML5</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <p>CSS4</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr/>
+
+        <section id="contact" class="mt-5">
+            <h2>Contact Me</h2>
+            <div class="row">
+                <div class="col-md-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required/>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://source.unsplash.com/200x200/?contact" class="img-fluid" alt="Contact Person"/>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="text-center">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
